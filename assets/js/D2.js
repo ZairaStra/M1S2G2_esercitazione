@@ -40,9 +40,17 @@ if (risultato > 0) {
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
-*/
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
+const c=8;
+const d=9;
+const e=72;
+if (d=c || e=c) {
+  console.log ("almeno uno condizione verificata")
+} else {
+  console.log ("almeno una condizione non verificata")
+}
+/*
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -121,10 +129,42 @@ const me = {
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const numberList = [];
+console.log(numberList);
+numberList.unshift(1);
+numberList.push(2, 3, 4, 5, 6, 7, 8, 9, 10);
 
-/* ESERCIZIO 15
-  Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
+/* D2.js:133
+[]
+0: 1
+1: 2
+2: 3
+3: 4
+4: 5
+5: 6
+6: 7
+7: 8
+8: 9
+9: 10
+length: 10
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* ESERCIZIO 15
+ */
+
+numberList.splice(9, 1, 100);
+/* 
+D2.js:133
+[]
+0: 1
+1: 2
+2: 3
+3: 4
+4: 5
+5: 6
+6: 7
+7: 8
+8: 9
+9: 100
+length: 1
+ */
