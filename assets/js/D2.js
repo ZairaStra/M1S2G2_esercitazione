@@ -10,15 +10,33 @@ if (a > b) {
   console.log("b > a");
 }
 
+/* D2.js:10 b > a */
+
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
-*/
+
+
+const z = 9;
+if ((z = 5)) {
+  console.log("equal");
+} else {
+  console.log("not-equal");
+}
+  */
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const num = 46;
+const risultato = num % 5;
+if (risultato > 0) {
+  console.log(" non divisibile per 5");
+} else {
+  console.log("divisibile per 5");
+}
+
+/*D2.js:34  non divisibile per 5 */
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
