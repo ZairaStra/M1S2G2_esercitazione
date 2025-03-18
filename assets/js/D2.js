@@ -14,9 +14,10 @@ if (a > b) {
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
+ */
 
-
-const z = 9;
+/* NON RISOLTO
+ const z = 9;
 if ((z = 5)) {
   console.log("equal");
 } else {
@@ -40,8 +41,8 @@ if (risultato > 0) {
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
-
-
+*/
+/* NON RISOLTO
 const c=8;
 const d=9;
 const e=72;
@@ -110,20 +111,33 @@ const me = {
   lastName: "Doe",
   skills: ["javascript", "html", "css"],
 };
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* NON RISOLTO
+me.city = Toronto;
+console.log(me.city);
+ */
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+delete me.lastName;
+console.log(me);
+
+/* 
+D2.js:123 {name: 'John', skills: Array(3)}name: "John"skills: (3) ['javascript', 'html', 'css'][[Prototype]]: Object
+ */
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+delete me.skills[2];
+console.log.me;
+
+/* {name: 'John', skills: Array(3)}
+name: "John"
+skills: (3) ['javascript', 'html', vuota]
+[[Prototype]]: Object */
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
