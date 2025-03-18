@@ -107,7 +107,16 @@ console.log(typeof "78");
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const div = 54;
+const result = num % 2;
+if (result > 0) {
+  console.log("numero dispari");
+} else {
+  console.log("numero pari");
+}
+/*
+D2.js:115 numero pari
+ */
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
