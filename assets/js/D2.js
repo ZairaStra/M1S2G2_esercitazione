@@ -47,9 +47,9 @@ const c=8;
 const d=9;
 const e=72;
 if (d=c || e=c) {
-  console.log ("almeno uno condizione verificata")
+  console.log ("almeno uno condizione verificata");
 } else {
-  console.log ("almeno una condizione non verificata")
+  console.log ("almeno una condizione non verificata");
 }
 /*
 
@@ -59,8 +59,17 @@ if (d=c || e=c) {
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+const totalShoppingCart = 54;
+const freeShipping = 50;
+const shipping = 10;
+if (totalShoppingCart >= freeShipping) {
+  console.log("spedizione gratuita!");
+} else {
+  console.log("shipping=10");
+}
+/* 
+D2.js:66 spedizione gratuita!
+*/
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
@@ -74,13 +83,25 @@ if (d=c || e=c) {
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* const alfa = 8;
+const beta = 25;
+const gamma = 18;
+if (alfa < beta && alfa < gamma && beta < gamma) {
+  console.log("alfa<beta<gamma");
+} else (alfa<beta && alfa<gamma && beta>gamma) {
+   console.log ("alfa<gamma<beta");
+   }
+ */
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log(typeof 78);
+/* D2.js:100 number */
+
+console.log(typeof "78");
+/* D2.js:102 string */
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
